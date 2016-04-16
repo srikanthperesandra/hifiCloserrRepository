@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context>
+<Realm className="com.t3heag.hificloserr.realms.MongoRealm"
+  	   dataSourceName="mongodb://localhost:27017/hificloserr"
+       userTable="users"
+       userCredCol="password"
+       userNameCol="username"
+ 	   />
+</Context>
